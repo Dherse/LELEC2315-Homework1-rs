@@ -1,0 +1,15 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+authors = ["dherse"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+memmap = "0.7.0"
+libc = "0.2.86"
+
+[build-dependencies]
+bindgen = "0.57.0"

@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "by-gdb",
+            "request": "launch",
+            "name": "Launch(remote)",
+            "program": "./target/armv7-unknown-linux-gnueabihf/debug/hello_world",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "prepdebug",
+            "debuggerPath": "gdb-multiarch",
+            "remote": {
+                "enabled": true,
+                "address": "192.168.7.1:5000",
+                "mode": "remote",
+                "execfile": "./target/armv7-unknown-linux-gnueabihf/debug/hello_world"
+            }
+        }
+    ]
+}
