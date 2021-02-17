@@ -1,6 +1,6 @@
 # LINGI2315 - DE-10 Nano - Hello world
 
-This is a rust version of an assignment for the LELEC2531 course taught at UCLouvain in Belgium.
+This is a rust version of an assignment for the LINGI2315 course taught at UCLouvain in Belgium.
 This serves as a proof of concept that rust can be utilized for this course and associated ones.
 
 This creates an animation on the 8 FPGA LEDs on the board using the two FPGA buttons to control the speed
